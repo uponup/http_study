@@ -1,5 +1,5 @@
-#! /usr/local/bin/lua
--- #! /usr/local/openresty/luajit/bin/luajit
+#! /usr/local/openresty/luajit/bin/luajit
+
 local headers = ngx.req.get_headers()
 local raw_headers = ngx.req.raw_headers()
 
